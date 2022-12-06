@@ -10,7 +10,6 @@ const Header = () => {
             <img src="images/logo.png" />
           </a>
         </div>
-
         <Navbar />
       </div>
     </header>
