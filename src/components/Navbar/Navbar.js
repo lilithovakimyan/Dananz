@@ -17,6 +17,7 @@ const Navbar = () => {
     if (menu.current && navbarOpen && menu.current.contains(e.target)) {
       setNavbarOpen(false);
     }
+    console.log(e.target);
   };
 
   document.addEventListener("mousedown", closeOpenMenus);
